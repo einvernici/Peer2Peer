@@ -27,6 +27,7 @@ Cada peer atua ao mesmo tempo como cliente e servidor, podendo enviar e receber 
 
 - Uma VM deve ser criada para cada Peer da rede. A configuração de rede deve ser "placa em modo bridge" para que a VM tenha um IP próprio e possa enviar enviar e receber mensagens através da rede.
 - O IP pode ser encontrado usando o comando ifconfig.
+- Criar pasta de arquivos que será sincronizada - no código fonte é "./p2p"
 
 ### 2. Alterações do código:
 
