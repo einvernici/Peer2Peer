@@ -7,7 +7,7 @@ Cada peer atua ao mesmo tempo como cliente e servidor, podendo enviar e receber 
 
 Funcionalidades:
 
-Adicionar arquivo (add)
+Adicionar arquivo (add <nome do arquivo>)
 
 - Notifica outros peers que um arquivo foi criado.
 - Quando um peer adiciona um arquivo, os outros podem requisitar o conteúdo automaticamente via protocolo (ADD → GET → FILE).
@@ -39,3 +39,4 @@ Como Testar o Programa:
 - Compilar: gcc peer.c -o peer
 - Rodar: ./peer
 - O projeto assume que todos os Peers estejam conectados ao mesmo tempo. Portanto, todos os Peers devem estar rodando o programa no momento do teste.
+- Para encerrar o programa Ctrl + C.
