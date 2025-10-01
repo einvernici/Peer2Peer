@@ -15,7 +15,7 @@
 #define ECHOMAX 255
 #define PORT 9000
 #define NUM_PEERS 2     //MODIFICAR: numero de peers na rede - total de peers -1, não precisa especificar máquina que está rodando o código
-#define P2P_DIR "./p2p"
+#define P2P_DIR "./p2p" //CRIAR PASTA "p2p" EM CADA PEER - caso o nome seja diferente de "p2p", MODIFICAR
 
 
 int sock;                       // descritor do socket
