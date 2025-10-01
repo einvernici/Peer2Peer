@@ -23,16 +23,16 @@ Cada peer atua ao mesmo tempo como cliente e servidor, podendo enviar e receber 
 
 - O programa foi criado e testado usando Virtual Machines. Cada Peer deve rodar o código em sua própria VM.
 
-1. Setup Virtual Machine:
+### 1. Setup Virtual Machine:
 
 - Uma VM deve ser criada para cada Peer da rede. A configuração de rede deve ser "placa em modo bridge" para que a VM tenha um IP próprio e possa enviar enviar e receber mensagens através da rede.
 - O IP pode ser encontrado usando o comando ifconfig.
 
-2. Alterações do código:
+### 2. Alterações do código:
 
 - O arquivo peer.c deve ser modificado para constar quais são os IPs dos Peers da rede - cada Peer deve adicionar o IP dos outros Peers. 
 
-3. Compilar e Rodar em Todos os Peers
+### 3. Compilar e Rodar em Todos os Peers
 
 - Compilar: gcc peer.c -o peer
 - Rodar: ./peer
