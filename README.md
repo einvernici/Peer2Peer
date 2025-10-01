@@ -1,5 +1,3 @@
-# Projeto: 
-
 # Rede P2P UDP em C
 
 Este projeto implementa um sistema simples de compartilhamento de arquivos P2P usando sockets UDP e threads.
