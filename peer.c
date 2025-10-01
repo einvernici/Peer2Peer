@@ -14,7 +14,7 @@
 
 #define ECHOMAX 255
 #define PORT 9000
-#define NUM_PEERS 1     //numero de peers na rede - total de peers -1, não precisa especificar máquina que está rodando o código
+#define NUM_PEERS 2     //MODIFICAR: numero de peers na rede - total de peers -1, não precisa especificar máquina que está rodando o código
 #define P2P_DIR "./p2p"
 
 
@@ -22,7 +22,7 @@ int sock;                       // descritor do socket
 int running = 1;                // flag para controle de encerramento
 
 struct sockaddr_in peers[NUM_PEERS];
-char *peer_ip[NUM_PEERS] = {"192.168.0.93"}; //colocar IP dos PEERS
+char *peer_ip[NUM_PEERS] = {"192.168.0.1", "192.168.0.2"}; //MODIFICAR: colocar IP dos PEERS
 
 // Endereço do cliente que enviou mensagem.
 // Inicialmente não conhecido (flag client_known == 0).
