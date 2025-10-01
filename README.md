@@ -21,13 +21,13 @@ Cada peer atua ao mesmo tempo como cliente e servidor, podendo enviar e receber 
 
 ## Como Testar o Programa:
 
-- O programa foi criado e testado usando Virtual Machines. Cada Peer deve rodar o código em sua própria VM.
+- O programa foi criado e testado usando Virtual Machines. Cada Peer deve rodar o código em sua própria VM e todos devem ter uma pasta que será compartilhada - no código fonte é "p2p".
 
 ### 1. Setup Virtual Machine:
 
 - Uma VM deve ser criada para cada Peer da rede. A configuração de rede deve ser "placa em modo bridge" para que a VM tenha um IP próprio e possa enviar enviar e receber mensagens através da rede.
 - O IP pode ser encontrado usando o comando ifconfig.
-- Criar pasta de arquivos que será sincronizada - no código fonte é "./p2p"
+- Criar pasta de arquivos que será sincronizada - no código fonte é "./p2p" - caso seja alterado o nome da pasta o código deve ser modificado.
 
 ### 2. Alterações do código:
 
